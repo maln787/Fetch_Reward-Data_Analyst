@@ -70,3 +70,9 @@ When diving deep into the data columns that were provided to us, one major issue
 
 Transaction table consists of item_id, user_id, receipt_id which can be used to connect with Items table, Users table and Receipts table. Then we needed to have some table which can help us connect with the brands table, thus items table: this table has all the information about the item that is being sold, listed or bought. It also has brand_id and this is the table which helps in connecting the Receipts, Users with Brands table. With this schema design we can analyse the data easily. This can help in finding the answers to the questions like which brands are more popular these days or which brands were popular a year before. This helps in finding the trend and doing some analysis for the business to grow.
 
+### iv) SQL Queries
+
+After creation of the Entity Relation Diagram, it was fairly simple to write the queries and output the sequence we need to know. For the SQL query, I used pandas SQL, but the structure of the query is same as PostgreSQL and MySQL.
+
+
+
