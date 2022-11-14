@@ -79,7 +79,17 @@ After creation of the Entity Relation Diagram, it was fairly simple to write the
 
 ### Data Files Folder 
 This folder consists 4 files. 
-1. Dengue Features Train - Training dataset for the challenge
-2. Dengue Features Test - Test dataset
-3. Training Label - Target class which is total cases is given by city and time.
-4. Submission File - Week of the year and City for which we have to predict the total cases.
+1. users.json.gz- Users Table file prior to cleaning
+2. brand.json.gz - Brand Table file prior to cleaning
+3. receipts.json.gz - Receipts Table file prior to cleaning
+4. users_final.csv - Users final csv after processing
+5. brand_final.csv - Brands final csv after processing
+6. receipits_final.csv - Receipts final csv after processing
+7. Metadata.docx - Consists information about the Tables used
+
+## Contact
+[(Back to table of contents)](#table-of-contents)
+
+* Feel free to contact me with any questions or if you want to understand any concepts. (www.nikunjmalpani.com)
+
+
