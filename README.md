@@ -75,4 +75,11 @@ Transaction table consists of item_id, user_id, receipt_id which can be used to 
 After creation of the Entity Relation Diagram, it was fairly simple to write the queries and output the sequence we need to know. For the SQL query, I used pandas SQL, but the structure of the query is same as PostgreSQL and MySQL.
 
 
+## Files consisting names and path
 
+### Data Files Folder 
+This folder consists 4 files. 
+1. Dengue Features Train - Training dataset for the challenge
+2. Dengue Features Test - Test dataset
+3. Training Label - Target class which is total cases is given by city and time.
+4. Submission File - Week of the year and City for which we have to predict the total cases.
