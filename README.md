@@ -58,6 +58,8 @@ We are using three data files namely receipts, users, brand data given to us in 
 
 To understand the data and the features than can be most useful, I first read the problem statement and learned about the data files and the columns present in it. This helped me understand the problem in more depth and what can help me in building the ER Diagram.
 
-### ii) Cleaning the data / Engineering the features
+### ii) Cleaning the data
 
+
+### iii) Entity Relation Diagram
 
