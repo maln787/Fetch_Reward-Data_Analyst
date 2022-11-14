@@ -68,4 +68,5 @@ Finally after cleaning the data and making it in the form to perform operations 
 
 When diving deep into the data columns that were provided to us, one major issue that I found was there was no clear way to connect brands with users and the receipts and there were many null values, anyways null values is the attribute of real world data, but to make a better schema with which we can maintain ACID properties, I created two new tables : Transaction and Items.
 
-Transaction table consists of 
+Transaction table consists of item_id, user_id, receipt_id which can be used to connect with Items table, Users table and Receipts table. Then we needed to have some table which can help us connect with the brands table, thus items table: this table has all the information about the item that is being sold, listed or bought. It also has brand_id and this is the table which helps in connecting the Receipts, Users with Brands table. With this schema design we can analyse the data easily. This can help in finding the answers to the questions like which brands are more popular these days or which brands were popular a year before. This helps in finding the trend and doing some analysis for the business to grow.
+
