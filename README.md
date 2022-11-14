@@ -60,6 +60,12 @@ To understand the data and the features than can be most useful, I first read th
 
 ### ii) Cleaning the data
 
+I first looked at the data files individually and found that there were few issues with the data to begin with. Firstly, there were some columns in all the data files which consisted of the values in the dictionary format, so I normalized them. After this I found there were many null values, although I did not impute the values now, but in future this would be the first step to work onto. I also removed the duplicated rows in the Users table which were almost half of the rows, as this is a major data quality issue and we should check the consistency before anything else, thus first step would be to check for these entries and how they are getting duplicated.
+
+Finally after cleaning the data and making it in the form to perform operations on I saved all three files in the csv format as final files under the data folder in this repository.
 
 ### iii) Entity Relation Diagram
 
+When diving deep into the data columns that were provided to us, one major issue that I found was there was no clear way to connect brands with users and the receipts and there were many null values, anyways null values is the attribute of real world data, but to make a better schema with which we can maintain ACID properties, I created two new tables : Transaction and Items.
+
+Transaction table consists of 
